@@ -1,0 +1,29 @@
+{
+  "name": "navigate-canonical",
+  "version": "1.0.0",
+  "description": "Go to the canonical page",
+  "main": "src/index.js",
+  "repository": "github:ciffelia/navigate-canonical",
+  "author": "Ciffelia <mc.prince.0203@gmail.com> (https://ciffelia.com/)",
+  "license": "MIT",
+  "homepage": "https://github.com/ciffelia/navigate-canonical#readme",
+  "bugs": "https://github.com/ciffelia/navigate-canonical/issues",
+  "private": true,
+  "scripts": {
+    "test": "standard",
+    "fix": "standard --fix",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.16.6",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "envs": [
+      "browser"
+    ],
+    "globals": [
+      "GM_registerMenuCommand"
+    ]
+  }
+}
